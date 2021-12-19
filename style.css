@@ -105,14 +105,14 @@
         font-size: 40px;
       }
 
-    p{
+    main p{
       margin: 200px auto;
       padding: 60px 0;
       width: 700px;
       font-size: 44px;
     }
 
-    a{
+    main a{
       font-size: 44px;
     }
   }
