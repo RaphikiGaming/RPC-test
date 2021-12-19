@@ -1,0 +1,128 @@
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: #E9FAFF;
+    user-select: none;
+  }
+
+  @media  screen and (min-width: 768px){
+
+    main{
+      min-height: 100%;
+      position: relative;
+      top: 100px;
+      z-index: 1;
+    }
+
+    main h1{
+      margin: 20px;
+      margin-top: 50px;
+      font-size: 30px;
+      font-family: "calibri", sans-serif;
+      text-align: center;
+      color: #08090A;
+    }
+
+    .c_gouv{
+      margin: 50px auto;
+      height: auto;
+      width: 60vw;
+      min-width: 700px;
+      max-width: 1200px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit,200px);
+      justify-content: center;
+    }
+
+      .c_gouv div h2{
+        font-size: 25px;
+        font-family: "calibri", sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        color: #08090A;
+      }
+
+      .c_gouv div h3{
+        font-size: 20px;
+        font-family: "calibri", sans-serif;
+        font-weight: lighter;
+        text-align: center;
+        color: #818181;
+      }
+
+    p{
+      margin: 100px auto;
+      padding: 30px 0;
+      width: 700px;
+      font-size: 22px;
+      font-family: "calibri", sans-serif;
+      font-weight: lighter;
+      text-align: center;
+      color:  #818181;
+      border-top: 1px solid #818181;
+    }
+
+    a{
+      font-size: 22px;
+      font-family: "calibri", sans-serif;
+      font-weight: lighter;
+      color:  #4EA8DE;
+      text-decoration: none;
+    }
+
+    a:hover{
+      cursor: pointer;
+    }
+  }
+
+  @media  screen and (orientation: portrait) and (min-width: 768px){
+    main{
+      top: 150px;
+    }
+
+    main h1{
+      margin: 40px;
+      margin-top: 100px;
+      font-size: 60px;
+    }
+
+    .c_gouv{
+      margin: 100px auto;
+      height: auto;
+      width: 90vw;
+      min-width: 700px;
+      max-width: 1500px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit,400px);
+      justify-content: center;
+    }
+
+      .c_gouv div h2{
+        font-size: 50px;
+      }
+
+      .c_gouv div h3{
+        font-size: 40px;
+      }
+
+    p{
+      margin: 200px auto;
+      padding: 60px 0;
+      width: 700px;
+      font-size: 44px;
+    }
+
+    a{
+      font-size: 44px;
+    }
+  }
+
+  @media  screen and (min-width: 200px) and (max-width: 768px){
+
+    main{
+      min-height: 100%;
+      position: relative;
+      top: 100px;
+      z-index: 1;
+    }
+  }

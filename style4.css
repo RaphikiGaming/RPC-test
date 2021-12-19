@@ -1,0 +1,95 @@
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: #E9FAFF;
+    user-select: none;
+  }
+
+  @media  screen and (min-width: 768px){
+
+    main{
+      min-height: 100%;
+      padding: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      top: 100px;
+      z-index: 1;
+    }
+
+    main p{
+      margin: 20px;
+      margin-top: 50px;
+      width: 45vw;
+      min-width: 700px;
+      max-width: 1000px;
+      font-size: 25px;
+      font-family: "calibri", sans-serif;
+      font-weight: lighter;
+      text-align: center;
+      color: #08090A;
+    }
+
+    main .detail{
+      width: auto;
+      min-width: inherit;
+      max-width: inherit;
+      font-style: italic;
+      color: #818181;
+    }
+
+    main button{
+      margin-top: 100px;
+      padding: 8px 16px;
+      font-size: 25px;
+      font-family: "calibri", sans-serif;
+      color: #56AB91;
+      background-color: RGBA(86,171,145,0.25);
+      border: #56AB91 solid 2px;
+      border-radius: 3px;
+      outline: none;
+      transition: background 0.15s,color 0.15s;
+    }
+
+    main button:hover{
+      color: #E9FAFF;
+      background-color: RGBA(86,171,145,1);
+      cursor: pointer;
+    }
+  }
+
+  @media  screen and (orientation: portrait) and (min-width: 768px){
+    main p{
+      margin: 40px;
+      margin-top: 100px;
+      width: 80vw;
+      min-width: 700px;
+      max-width: 1000px;
+      font-size: 50px;
+      font-family: "calibri", sans-serif;
+      font-weight: lighter;
+      text-align: center;
+      color: #08090A;
+    }
+
+    main button{
+      margin-top: 200px;
+      padding: 16px 32px;
+      font-size: 50px;
+      border: #56AB91 solid 4px;
+      border-radius: 6px;
+    }
+  }
+
+  @media  screen and (min-width: 200px) and (max-width: 768px){
+
+    main{
+      min-height: 100%;
+      position: relative;
+      top: 100px;
+      z-index: 1;
+    }
+
+
+  }

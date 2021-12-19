@@ -1,0 +1,196 @@
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: #E9FAFF;
+    user-select: none;
+  }
+
+  @media  screen and (orientation: landscape) and (min-width: 768px){
+
+    main{
+      min-height: 100%;
+      padding-bottom: 100px;
+      position: relative;
+      top: 100px;
+      z-index: 1;
+    }
+
+    .card{
+      margin: 50px auto;
+      height: auto;
+      width: 50vw;
+      min-width: 700px;
+      max-width: 1500px;
+      display: flex;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 0 30px rgba(0,0,0,0.15);
+    }
+
+    .c1{
+      background: linear-gradient(#EA698B,#D55D92,#C05299,#AC46A1);
+    }
+
+    .c2{
+      background: linear-gradient(#AC46A1,#973AA8,#822FAF,#6D23B6);
+    }
+
+    .c3{
+      background: linear-gradient(#6D23B6,#6411AD,#571089,#47126B);
+    }
+
+      main .c_logo{
+        height: auto;
+        width: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 0 5px 5px 0;
+      }
+
+        main .c_logo > svg{
+          margin: 20px 0;
+          max-width: 75%;
+        }
+
+      .c_other{
+        padding: 20px 30px;
+        width: 85%;
+      }
+
+        .c_other h1{
+          line-height: 0;
+          font-size: 30px;
+          font-family: "calibri", sans-serif;
+          /* font-weight: lighter; */
+          color: #fff;
+        }
+
+        .c_other p{
+          margin: 30px 0;
+          font-size: 22px;
+          font-family: "calibri", sans-serif;
+          font-weight: lighter;
+          font-style: italic;
+          color: #fff;
+        }
+
+        button{
+          padding: 8px 16px;
+          font-size: 25px;
+          font-family: "calibri", sans-serif;
+          color: #fff;
+          background-color: RGBA(255,255,255,0.25);
+          border: #fff solid 2px;
+          border-radius: 3px;
+          outline: none;
+          transition: background 0.15s,color 0.15s;
+        }
+
+        button:hover{
+          color: #000;
+          background-color: RGBA(255,255,255,1);
+          cursor: pointer;
+        }
+
+  }
+
+  @media  screen and (orientation: portrait) and (min-width: 768px){
+    main{
+      min-height: 100%;
+      padding-bottom: 200px;
+      position: relative;
+      top: 150px;
+      z-index: 1;
+    }
+
+    .card{
+      margin: 100px auto;
+      height: auto;
+      width: 90vw;
+      min-width: 700px;
+      max-width: 1500px;
+      display: flex;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 30px rgba(0,0,0,0.15);
+    }
+
+    .c1{
+      background: linear-gradient(#EA698B,#D55D92,#C05299,#AC46A1);
+    }
+
+    .c2{
+      background: linear-gradient(#AC46A1,#973AA8,#822FAF,#6D23B6);
+    }
+
+    .c3{
+      background: linear-gradient(#6D23B6,#6411AD,#571089,#47126B);
+    }
+
+      main .c_logo{
+        height: auto;
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 0 10px 10px 0;
+      }
+
+        main .c_logo > svg{
+          margin: 40px 0;
+          max-width: 75%;
+        }
+
+      .c_other{
+        padding: 40px 60px;
+        width: 85%;
+      }
+
+        .c_other h1{
+          line-height: 0;
+          font-size: 60px;
+          font-family: "calibri", sans-serif;
+          /* font-weight: lighter; */
+          color: #fff;
+        }
+
+        .c_other p{
+          margin: 60px 0;
+          font-size: 44px;
+          font-family: "calibri", sans-serif;
+          font-weight: lighter;
+          font-style: italic;
+          color: #fff;
+        }
+
+        main button{
+          padding: 16px 32px;
+          font-size: 50px;
+          font-family: "calibri", sans-serif;
+          color: #fff;
+          background-color: RGBA(255,255,255,0.25);
+          border: #fff solid 4px;
+          border-radius: 6px;
+          outline: none;
+          transition: background 0.15s,color 0.15s;
+        }
+
+        main button:hover{
+          color: #000;
+          background-color: RGBA(255,255,255,1);
+          cursor: pointer;
+        }
+  }
+
+  @media  screen and (min-width: 200px) and (max-width: 768px){
+
+    main{
+      min-height: 100%;
+      position: relative;
+      top: 100px;
+      z-index: 1;
+    }
+  }

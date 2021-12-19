@@ -1,0 +1,28 @@
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: #E9FAFF;
+    user-select: none;
+  }
+
+  @media  screen and (min-width: 768px){
+
+    main{
+      min-height: 100%;
+      position: relative;
+      top: 100px;
+      z-index: 1;
+    }
+  }
+
+  @media  screen and (orientation: portrait) and (min-width: 768px){}
+
+  @media  screen and (min-width: 200px) and (max-width: 768px){
+
+    main{
+      min-height: 100%;
+      position: relative;
+      top: 100px;
+      z-index: 1;
+    }
+  }
