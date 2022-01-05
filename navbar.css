@@ -206,7 +206,7 @@
       }
   }
 
-  @media  screen and (min-width: 200px) and (max-width: 768px){
+  @media screen and (min-width: 200px) and (max-width: 768px) {
     header{
       height: 70px;
       width: 100%;
@@ -266,8 +266,6 @@
         }
 
         .btn_menu:hover > svg{
-          height: 100%;
-          width: 100%;
           color: #2f9c95;
         }
 
@@ -317,11 +315,4 @@
             background-color: #8b9699;
             cursor: pointer;
           }
-
-      main{
-        min-height: 100%;
-        position: relative;
-        top: 100px;
-        z-index: 1;
-      }
   }
